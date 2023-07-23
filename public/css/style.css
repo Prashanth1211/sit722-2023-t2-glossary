@@ -28,3 +28,6 @@ body{
 #nametag{
    margin-left: 75px;
 }
+table, th, td {
+    border: 1px solid white;
+  }
