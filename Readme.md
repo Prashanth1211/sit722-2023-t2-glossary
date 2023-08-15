@@ -1,12 +1,11 @@
-Project Title
+# sit722-2023-t2-glossary
 
-Devops Glossary
+1. Install all the packages
+```
+npm install
+```
 
-Description
-
-Enter the devops gloassary that are learnt tin the class
-
-Authors
-Prashanth Ramachandran
-
-
+2. Run
+```
+npm start
+```

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>SIT722</h1>
+    <p>Welcome to <%= title %></p>
+    <table>
+      <tr>
+        <th>ID#</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>References</th>
+    </tr>
+      <% list.forEach( (item) => { %>
+        <tr>
+          <td>
+            <%= item.id %>
+          </td>
+          <td>
+            <%= item.title %>
+          </td>
+          <td>
+            <%= item.description %>
+          </td>
+          <td>
+            <%= item.reference %>
+          </td>
+        </tr>
+        <% }) %> 
+    </table>
+  </body>
+</html>
