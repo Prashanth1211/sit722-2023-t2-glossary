@@ -121,6 +121,67 @@ const listItems = [
     "title": "Capacity Planning",
     "description": "Estimating and planning resource requirements to meet future demand.",
     "reference": "Wikipedia Contributors, “Capacity planning,” Wikipedia, May 01, 2019. https://en.wikipedia.org/wiki/Capacity_planning"
+  },
+  {
+    "id": "21",
+    "title": "Artifact Repository",
+    "description": " A centralized location where software artifacts, such as compiled code, libraries, and documentation, are stored and managed. Artifact repositories help teams manage versioning, distribution, and access to these components, facilitating a streamlined software development and deployment process.",
+    "reference": "What is an Artifact Repository? | TeamCity CI/CD Guide,JetBrains. https://www.jetbrains.com/teamcity/ci-cd-guide/concepts/artifact-repository/#:~:text=An%20artifact%20repository%20provides%20a (accessed Aug. 25, 2023).",
+
+  },
+  {
+    "id": "22",
+    "title": "Deployment Automation",
+    "description": "The process of automating the deployment of software applications to different environments, reducing manual errors and ensuring consistent deployments.",
+    "reference": "What is deployment automation?, www.redhat.com. https://www.redhat.com/en/topics/automation/what-is-deployment-automation",
+  },
+  {
+    "id": "23",
+    "title": "Blue-Green Deployment",
+    "description": "A deployment strategy where two identical environments (blue and green) are maintained, allowing for seamless switching between them to minimize downtime during releases.",
+    "reference": "Blue/Green Deployments - Overview of Deployment Options on AWS, docs.aws.amazon.com. https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html",
+  },
+  {
+    "id": "24",
+    "title": "Immutable Infrastructure",
+    "description": "An approach where infrastructure components are treated as immutable and are never modified directly; instead, new instances are created with each change or update.",
+    "reference": "What is immutable infrastructure? - Definition from WhatIs.com, SearchITOperations. https://www.techtarget.com/searchitoperations/definition/immutable-infrastructure#:~:text=Immutable%20infrastructure%20is%20an%20approach",
+  },
+  {
+    "id": "25",
+    "title": "Infrastructure as a Service (IaaS)",
+    "description": "Cloud computing model where virtualized computing resources are provided over the internet, allowing users to manage and control their infrastructure.",
+    "reference": "What is IaaS? Infrastructure as a Service | Microsoft Azure, azure.microsoft.com. https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/what-is-iaas",
+  },
+  {
+    "id": "26",
+    "title": "Platform as a Service (PaaS)",
+    "description": "Cloud computing model that provides a platform and environment for developers to build, deploy, and manage applications without managing the underlying infrastructure.",
+    "reference": "What Is PaaS?, Google Cloud. https://cloud.google.com/learn/what-is-paas#:~:text=Get%20the%20report-",
+  },
+  {
+    "id": "27",
+    "title": "Serverless Computing",
+    "description": "A cloud computing model where developers can build and run applications without needing to manage the underlying server infrastructure, paying only for actual usage.",
+    "reference": "Wikipedia Contributors,Serverless computing,Wikipedia, Jan. 06, 2020. https://en.wikipedia.org/wiki/Serverless_computing",
+  },
+  {
+    "id": "28",
+    "title": "Site Reliability Engineering (SRE)",
+    "description": "A discipline that combines software engineering and systems administration to design, build, and maintain large-scale, reliable, and scalable systems.",
+    "reference": "What is Site Reliability Engineering? - SRE Explained - AWS,Amazon Web Services, Inc. https://aws.amazon.com/what-is/sre/",
+  },
+  {
+    "id": "29",
+    "title": "Monitoring as Code",
+    "description": "Treating infrastructure and application monitoring configurations as code, allowing them to be versioned, automated, and integrated into the DevOps pipeline.",
+    "reference": "S. Porter, Monitoring as Code: What It Is and Why You Need It, The New Stack, Jan. 21, 2021. https://thenewstack.io/monitoring-as-code-what-it-is-and-why-you-need-it/ (accessed Aug. 25, 2023).",
+  },
+  {
+    "id": "30",
+    "title": "Failover",
+    "description": "A mechanism that automatically switches from a failed system or component to a standby or redundant system to ensure high availability and reliability.",
+    "reference": "What is a failover? Definition and related FAQs,www.druva.com. https://www.druva.com/glossary/what-is-a-failover-definition-and-related-faqs#:~:text=Failover%20is%20the%20ability%20to (accessed Aug. 25, 2023).",
   }
 ];
 
