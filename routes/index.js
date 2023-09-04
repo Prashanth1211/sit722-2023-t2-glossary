@@ -182,6 +182,67 @@ const listItems = [
     "title": "Failover",
     "description": "A mechanism that automatically switches from a failed system or component to a standby or redundant system to ensure high availability and reliability.",
     "reference": "What is a failover? Definition and related FAQs,www.druva.com. https://www.druva.com/glossary/what-is-a-failover-definition-and-related-faqs#:~:text=Failover%20is%20the%20ability%20to (accessed Aug. 25, 2023).",
+  },
+  {
+    "id": "31",
+    "title": "Immutable Deployment",
+    "description": "A deployment strategy where a new version of an application or system is created and deployed as a whole, rather than modifying an existing instance, ensuring consistency and reliability.",
+    "reference": "Netlify. (n.d.). What are Atomic deploys? Immutable deploys? Learn here! [online] Available at: https://www.netlify.com/blog/2021/02/23/terminology-explained-atomic-and-immutable-deploys/#:~:text=While%20a%20%22mutable%22%20item%20can [Accessed 4 Sep. 2023].",
+
+  },
+  {
+    "id": "32",
+    "title": "Chaos Engineering",
+    "description": "A practice of intentionally introducing controlled failures and chaos into a system to identify weaknesses and vulnerabilities, helping teams build more resilient systems.",
+    "reference": "“What is chaos engineering? Chaos engineering and its principles explained,” IT Operations. https://www.techtarget.com/searchitoperations/definition/chaos-engineering#:~:text=Chaos%20engineering%20is%20the%20process (accessed Sep. 04, 2023).",
+  },
+  {
+    "id": "33",
+    "title": "Docker Swarm",
+    "description": "A native clustering and orchestration solution for Docker containers, allowing for easy scaling and management of containerized applications.",
+    "reference": "“What is Docker Swarm?,” Sumo Logic. https://www.sumologic.com/glossary/docker-swarm/",
+  },
+  {
+    "id": "34",
+    "title": "Feature Flagging",
+    "description": "A technique that allows developers to toggle features on and off in a live application, enabling controlled and gradual rollouts of new functionality and A/B testing.",
+    "reference": "“Feature Flags—What Are Those? Uses, Benefits & Best Practices,” LaunchDarkly. https://launchdarkly.com/blog/what-are-feature-flags/",
+  },
+  {
+    "id": "35",
+    "title": "Infrastructure as Code (IaC) Tool",
+    "description": "Software tools like Terraform and Ansible that enable the automated provisioning and management of infrastructure using code, improving infrastructure agility and reducing manual configuration.",
+    "reference": "“Best Infrastructure as Code Tools (IaC): The Top 10 for 2022,” bluelight.co. https://bluelight.co/blog/best-infrastructure-as-code-tools",
+  },
+  {
+    "id": "36",
+    "title": "Release Pipeline",
+    "description": "A set of automated steps and processes that code changes go through from development to production, including building, testing, and deploying, to ensure a reliable and repeatable release process.",
+    "reference": "“Release Pipeline in DevOps -Professional-Devops.com,” www.professional-devops.com. https://www.professional-devops.com/release-pipeline.html#:~:text=A%20release%20pipeline%20is%20a",
+  },
+  {
+    "id": "37",
+    "title": "Log Aggregation",
+    "description": "The process of collecting and centralizing log data from various sources and applications, making it easier to analyze and monitor system behavior and troubleshoot issues.",
+    "reference": "Datadog, “Log Aggregation: What It Is & How It Works | Datadog,” Log Aggregation: What It Is & How It Works, Aug. 03, 2021. https://www.datadoghq.com/knowledge-center/log-aggregation/#:~:text=Log%20aggregation%20is%20the%20process",
+  },
+  {
+    "id": "38",
+    "title": "Scalability",
+    "description": "The ability of a system, application, or infrastructure to handle increasing workloads and traffic by adding resources or nodes dynamically, ensuring performance and availability as demands grow.",
+    "reference": "“Definition of Scalability - Gartner Information Technology Glossary,” Gartner. https://www.gartner.com/en/information-technology/glossary/scalability",
+  },
+  {
+    "id": "39",
+    "title": "Infrastructure Orchestration",
+    "description": "The automated management and coordination of infrastructure components, often involving provisioning, configuring, and scaling resources in a synchronized manner.",
+    "reference": "S. Work, “What is IT Infrastructure Orchestration,” Pliant - The Orchestration Platform, Oct. 27, 2022. https://pliant.io/what-is-it-infrastructure-orchestration/ (accessed Sep. 04, 2023).",
+  },
+  {
+    "id": "40",
+    "title": "Serverless Architecture",
+    "description": "A cloud computing model where developers build and run applications without managing the underlying servers, focusing solely on writing code and letting the cloud provider handle infrastructure scaling and management.",
+    "reference": "“Serverless Architectures,” Amazon Web Services, Inc. https://aws.amazon.com/lambda/serverless-architectures-learn-more/#:~:text=A%20serverless%20architecture%20is%20a",
   }
 ];
 
