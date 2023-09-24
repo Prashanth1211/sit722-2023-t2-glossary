@@ -243,8 +243,70 @@ const listItems = [
     "title": "Serverless Architecture",
     "description": "A cloud computing model where developers build and run applications without managing the underlying servers, focusing solely on writing code and letting the cloud provider handle infrastructure scaling and management.",
     "reference": "“Serverless Architectures,” Amazon Web Services, Inc. https://aws.amazon.com/lambda/serverless-architectures-learn-more/#:~:text=A%20serverless%20architecture%20is%20a",
+  },
+  {
+    "id": "41",
+    "title": "Dark Launching",
+    "description": "A technique where new features or changes are deployed to production but are not exposed to users. This allows for testing in a real environment without user impact.",
+    "reference": "“Dark Launch,” Split. https://www.split.io/glossary/dark-launch/#:~:text=What%20is%20a%20Dark%20Deployment",
+
+  },
+  {
+    "id": "42",
+    "title": "Infrastructure as Code (IaC) Templates",
+    "description": "These are files that define the desired state of infrastructure, such as AWS CloudFormation templates or Azure Resource Manager templates. ",
+    "reference": "“Securing Infrastructure by Embedding Infrastructure As Code (IaC) Security into Developer Workflows,” www.zscaler.com. https://www.zscaler.com/blogs/product-insights/securing-infrastructure-embedding-infrastructure-code-iac-security-developer",
+  },
+  {
+    "id": "43",
+    "title": "Canary Deployment",
+    "description": "A release strategy where a new version of an application is gradually rolled out to a subset of users or servers to assess its performance and reliability before a full deployment.",
+    "reference": "“Use a canary deployment strategy | Cloud Deploy,” Google Cloud. https://cloud.google.com/deploy/docs/deployment-strategies/canary#:~:text=canary%20deployment%20strategy.-",
+  },
+  {
+    "id": "44",
+    "title": "DevSecOps",
+    "description": "An extension of DevOps that emphasizes integrating security practices into the software development and deployment process, ensuring that security is considered from the outset.",
+    "reference": "“What is DevSecOps?,” www.redhat.com. https://www.redhat.com/en/topics/devops/what-is-devsecops#:~:text=DevSecOps%20stands%20for%20development%2C%20security",
+  },
+  {
+    "id": "45",
+    "title": "GitLab",
+    "description": "A web-based DevOps platform that provides source code repository management, continuous integration, continuous delivery, and more in a single application.",
+    "reference": "“GitLab,” Wikipedia, May 04, 2020. https://en.wikipedia.org/wiki/GitLab",
+  },
+  {
+    "id": "46",
+    "title": "Continuous Verification",
+    "description": "Containers that are designed to be stateless and not modified once they are running. Any changes result in the creation of a new container instance, promoting consistency and reliability.",
+    "reference": "“What Is Continuous Verification (CV)? | Harness Developer Hub,” developer.harness.io. https://developer.harness.io/docs/first-gen/continuous-delivery/continuous-verification/continuous-verification-overview/concepts-cv/what-is-cv/ (accessed Sep. 24, 2023).",
+  },
+  {
+    "id": "47",
+    "title": "Multi-Cloud Strategy",
+    "description": "The practice of using multiple cloud providers for different parts of an application or workload, reducing the risk of vendor lock-in and increasing redundancy.",
+    "reference": "“What Is Multicloud?,” Google Cloud. https://cloud.google.com/learn/what-is-multicloud",
+  },
+  {
+    "id": "48",
+    "title": "Configuration Drift",
+    "description": "The gradual, unintended divergence of system configurations from their desired states, typically managed and mitigated through configuration management tools.",
+    "reference": "“Configuration Drift: Why It’s Bad and How to Eliminate It,” Aqua. https://www.aquasec.com/cloud-native-academy/vulnerability-management/configuration-drift/#:~:text=Configuration%20drift%20is%20when%20the%20configuration%20of%20an%20environment%20%E2%80%9Cdrifts",
+  },
+  {
+    "id": "49",
+    "title": "Service Mesh",
+    "description": "A dedicated infrastructure layer that manages communication between microservices, providing features like load balancing, security, and monitoring without requiring changes to the application code.",
+    "reference": "“What’s a service mesh?,” www.redhat.com. https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh",
+  },
+  {
+    "id": "50",
+    "title": "Kubernetes Operator",
+    "description": "A Kubernetes controller that automates the management of complex stateful applications on Kubernetes, extending its capabilities beyond basic container orchestration.",
+    "reference": "“Operator pattern,” Kubernetes. https://kubernetes.io/docs/concepts/extend-kubernetes/operator/",
   }
 ];
+
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
